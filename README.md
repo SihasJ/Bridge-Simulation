@@ -114,22 +114,40 @@ Comprehensive parameter sensitivity study for bridge oscillation behavior.
    - Studies effect of damping on vibration amplitude
    - Includes both linear and logarithmic scale plots
 
-<p align="center"><img src="figures/q5-c.jpg" alt="Damping coefficient sensitivity analysis on linear scale" width="600"></p>
-<p align="center"><em>Maximum lateral displacement versus damping coefficient on a linear scale, illustrating the significant reduction in vibration amplitude with increased damping, particularly in the underdamped regime.</em></p>
-
-<p align="center"><img src="figures/q5c-log.jpg" alt="Damping coefficient sensitivity analysis on logarithmic scale" width="600"></p>
-<p align="center"><em>Maximum lateral displacement versus damping coefficient on a logarithmic scale, providing enhanced visualization of the damping effect across several orders of magnitude.</em></p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/q5-c.jpg" alt="Damping coefficient sensitivity analysis on linear scale" width="500">
+      <br>
+      <em>Maximum lateral displacement versus damping coefficient on a linear scale, illustrating the significant reduction in vibration amplitude with increased damping, particularly in the underdamped regime.</em>
+    </td>
+    <td align="center">
+      <img src="figures/q5c-log.jpg" alt="Damping coefficient sensitivity analysis on logarithmic scale" width="500">
+      <br>
+      <em>Maximum lateral displacement versus damping coefficient on a logarithmic scale, providing enhanced visualization of the damping effect across several orders of magnitude.</em>
+    </td>
+  </tr>
+</table>
 
 3. **Gait Frequency (f)**
    - Range: $0.7$ to $1.2 \text{ Hz}$
    - Compares marching (synchronized) vs. normal (random phase) walking
    - Identifies resonance conditions near natural frequency
 
-<p align="center"><img src="figures/q5-fm.jpg" alt="Gait frequency sensitivity analysis for marching pace" width="600"></p>
-<p align="center"><em>Maximum lateral displacement versus gait frequency for synchronized marching, with the natural frequency marked to highlight resonance conditions where vibrations are maximized.</em></p>
-
-<p align="center"><img src="figures/q5-fn.jpg" alt="Gait frequency sensitivity analysis for normal walking pace" width="600"></p>
-<p align="center"><em>Maximum lateral displacement versus gait frequency for normal walking with random phase distribution, demonstrating reduced vibration amplitude compared to synchronized marching due to phase cancellation effects.</em></p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/q5-fm.jpg" alt="Gait frequency sensitivity analysis for marching pace" width="500">
+      <br>
+      <em>Maximum lateral displacement versus gait frequency for synchronized marching, with the natural frequency marked to highlight resonance conditions where vibrations are maximized.</em>
+    </td>
+    <td align="center">
+      <img src="figures/q5-fn.jpg" alt="Gait frequency sensitivity analysis for normal walking pace" width="500">
+      <br>
+      <em>Maximum lateral displacement versus gait frequency for normal walking with random phase distribution, demonstrating reduced vibration amplitude compared to synchronized marching due to phase cancellation effects.</em>
+    </td>
+  </tr>
+</table>
 
 **Bridge Parameters:**
 - Base mass: $m = 1 \times 10^5 \text{ kg}$
